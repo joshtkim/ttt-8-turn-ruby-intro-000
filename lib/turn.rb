@@ -7,6 +7,14 @@ def display_board(board)
 
 end
 
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+  def turn(board)
+    puts "Please enter 1-9:"
+    until valid_move?(board, index)
+    end
+  end
+
 
 def input_to_index(user_input)
   new_user_input = user_input.to_i
