@@ -32,9 +32,6 @@ def valid_move?(board, index)
   end
 end
 
-until input_to_index == .between?(0, 8)
-  puts "Error, please submit a valid number"
-
 
 def position_taken?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil
